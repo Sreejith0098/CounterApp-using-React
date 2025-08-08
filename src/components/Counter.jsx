@@ -13,8 +13,8 @@ const Counter = () => {
         setCount(0)
     }
   return (
-    <div style={{height:'100vh', width:'100%'}} className='d-flex justify-content-center align-items-center' >
-        <div className='border border-2 rounded-3 p-5'  style={{width:'400px'}} >
+    <div style={{height:'100vh', width:'100%' }} className='d-flex justify-content-center align-items-center bg-dark' >
+        <div className='border border-2 rounded-3 p-5'  style={{width:'400px', backgroundColor:'#ffd3c4'}} >
      
             <h1 className='text-center'>Counter App</h1>
             <h1 className='text-center bold'>{count}</h1>
